@@ -42,6 +42,6 @@ end
 
 def add_s(strArr)
   strArr.each_with_index { |element, index|
-    
+    strArr.index(element) != 2 ? element[index] << 's'
   }
 end
