@@ -31,3 +31,7 @@ def kesha_maker(strArr)
     i[2] = '$'
   end
 end
+
+def find_a(array)
+  
+end
