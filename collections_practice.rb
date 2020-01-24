@@ -2,7 +2,7 @@ def sort_array_asc(intArr)
   intArr.sort
 end
 
-def sort_array.desc(intArr)
+def sort_array_desc(intArr)
   intArr.sort do |a, b|
     if a == b
       0 
