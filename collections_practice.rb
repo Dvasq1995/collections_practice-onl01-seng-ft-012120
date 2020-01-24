@@ -7,7 +7,8 @@ def sort_array.desc(intArr)
     if a == b
       0 
     elsif a > b 
-      
+      1 
+    else
   end
 end
 
