@@ -41,5 +41,5 @@ def sum_array(intArr)
 end
 
 def add_s(strArr)
-  strArr.each_with_index.collect{|element, index| strArr.index(element) != 1}
+  strArr.each_with_index.collect{|element, index| strArr.index(element) != 1 ? element << 's'}
 end
