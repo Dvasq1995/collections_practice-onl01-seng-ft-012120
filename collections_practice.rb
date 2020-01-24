@@ -4,5 +4,5 @@ end
 
 def sort_array_char_count(strArr)
   str.Arr.sort do |a, b|
-    
+end
 end
