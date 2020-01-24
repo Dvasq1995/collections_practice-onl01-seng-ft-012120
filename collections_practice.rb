@@ -44,6 +44,8 @@ def add_s(strArr)
   strArr.each_with_index.collect{|element, index|
     if strArr.index(element) != 1
       element << 's'
+    else
+      element
     end
   }
 end
