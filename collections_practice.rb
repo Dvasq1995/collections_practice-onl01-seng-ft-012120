@@ -15,5 +15,7 @@ def sort_array_char_count(strArr)
 end
 
 def swap_elements(array)
+  secondElement = array[1]
+  thirdElement = array[2]
   
 end
