@@ -39,3 +39,7 @@ end
 def sum_array(intArr)
   intArr.reduce(:+)
 end
+
+def add_s(strArr)
+  
+end
