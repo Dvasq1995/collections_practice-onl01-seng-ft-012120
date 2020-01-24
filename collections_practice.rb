@@ -33,5 +33,5 @@ def kesha_maker(strArr)
 end
 
 def find_a(array)
-  array.select { }
+  array.select{|i| i.find}
 end
