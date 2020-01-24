@@ -3,8 +3,7 @@ def sort_array_asc(intArr)
 end
 
 def sort_array_desc(intArr)
-  intArr.sort
-  intArr.reverse
+  intArr.sort {|x,y| -(x <=> y)}
 end
 
 def sort_array_char_count(strArr)
