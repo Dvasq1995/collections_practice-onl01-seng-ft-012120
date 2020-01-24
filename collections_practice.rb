@@ -3,7 +3,9 @@ def sort_array_asc(intArr)
 end
 
 def sort_array_desc(intArr)
-  intArr.sort {|x,y| -(x <=> y)}
+  intArr.sort do |a, b|
+    -(a <=> b)
+  end
 end
 
 def sort_array_char_count(strArr)
