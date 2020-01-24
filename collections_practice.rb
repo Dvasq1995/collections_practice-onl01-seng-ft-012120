@@ -3,5 +3,6 @@ def sort_array_asc(intArr)
 end
 
 def sort_array_char_count(strArr)
-  str.Arr.sort 
+  str.Arr.sort do |a, b|
+    
 end
